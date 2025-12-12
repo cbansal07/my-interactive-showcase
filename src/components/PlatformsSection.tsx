@@ -5,26 +5,26 @@ import { ExternalLink } from "lucide-react";
 const platforms = [
   {
     name: "LeetCode",
-    username: "your_username",
+    username: "c_coder07",
     description: "Algorithmic problem solving and interview preparation",
     color: "from-[#FFA116] to-[#FFB84D]",
-    url: "https://leetcode.com/your_username",
+    url: "https://leetcode.com/u/C_coder07/",
     icon: "LC",
   },
   {
     name: "CodeChef",
-    username: "your_username",
+    username: "c_coder_07",
     description: "Competitive programming contests and practice",
     color: "from-[#5B4638] to-[#8B7355]",
-    url: "https://codechef.com/users/your_username",
+    url: "https://www.codechef.com/users/c_coder_07",
     icon: "CC",
   },
   {
     name: "Codeforces",
-    username: "your_username",
+    username: "c_bansal",
     description: "Competitive programming and algorithmic challenges",
     color: "from-[#1F8ACB] to-[#5CB3E8]",
-    url: "https://codeforces.com/profile/your_username",
+    url: "https://codeforces.com/profile/c_bansal",
     icon: "CF",
   },
 ];

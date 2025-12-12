@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
   { name: "Home", href: "#home" },
@@ -52,6 +53,7 @@ const Navbar = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 gradient-bg transition-all group-hover:w-full" />
             </motion.a>
           ))}
+          <ThemeToggle />
         </div>
 
         {/* Mobile Menu Button */}
@@ -80,6 +82,9 @@ const Navbar = () => {
               {item.name}
             </a>
           ))}
+          <div className="pt-2 border-t border-border">
+            <ThemeToggle />
+          </div>
         </div>
       </motion.div>
     </motion.nav>

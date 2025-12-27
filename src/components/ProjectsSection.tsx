@@ -4,25 +4,25 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Project Name 1",
+    title: "ConnectSphere",
     description:
-      "A brief description of your project. What problem does it solve? What technologies did you use?",
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "A social media platform to connect with friends and family.",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+    liveUrl: "https://connect-sphere1.vercel.app/",
+    githubUrl: "https://github.com/cbansal07/ConnectSphere1",
   },
   {
-    title: "Project Name 2",
+    title: "Samadhaan",
     description:
-      "Another awesome project description. Highlight the key features and your role in building it.",
-    technologies: ["Node.js", "Express", "MongoDB"],
+      "A one-stop solution for all public grievances, organizing departments and making it easier for both government and citizens.",
+    technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/cbansal07/Samadhaan",
   },
   {
     title: "Project Name 3",
     description:
-      "Describe what makes this project special. What did you learn from building it?",
+      "coming soon!!",
     technologies: ["Python", "Flask", "PostgreSQL"],
     liveUrl: "#",
     githubUrl: "#",

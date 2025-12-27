@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -6,6 +7,7 @@ import ThemeToggle from "./ThemeToggle";
 const navItems = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
+  { name: "Education", href: "#education" },
   { name: "Platforms", href: "#platforms" },
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
@@ -37,7 +39,7 @@ const Navbar = () => {
           className="text-xl font-bold gradient-text"
           whileHover={{ scale: 1.05 }}
         >
-          Portfolio
+          Chunit
         </motion.a>
 
         {/* Desktop Navigation */}

@@ -6,7 +6,7 @@ const platforms = [
   {
     name: "LeetCode",
     username: "c_coder07",
-    description: "Algorithmic problem solving and interview preparation",
+    description: "1700+ Rated on LeetCode",
     color: "from-[#FFA116] to-[#FFB84D]",
     url: "https://leetcode.com/u/C_coder07/",
     icon: "LC",
@@ -14,7 +14,7 @@ const platforms = [
   {
     name: "CodeChef",
     username: "c_coder_07",
-    description: "Competitive programming contests and practice",
+    description: "1600+ Rated (3 Star) on CodeChef",
     color: "from-[#5B4638] to-[#8B7355]",
     url: "https://www.codechef.com/users/c_coder_07",
     icon: "CC",
@@ -22,7 +22,7 @@ const platforms = [
   {
     name: "Codeforces",
     username: "c_bansal",
-    description: "Competitive programming and algorithmic challenges",
+    description: "1200+ Rated (Pupil) on Codeforces",
     color: "from-[#1F8ACB] to-[#5CB3E8]",
     url: "https://codeforces.com/profile/c_bansal",
     icon: "CF",
@@ -63,14 +63,14 @@ const PlatformsSection = () => {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.2 + index * 0.15 }}
               whileHover={{ y: -10, scale: 1.02 }}
-              className="group relative bg-card rounded-2xl p-8 border border-border overflow-hidden"
+              className="group relative bg-card rounded-2xl p-8 border border-border overflow-hidden h-full flex flex-col"
             >
               {/* Gradient overlay on hover */}
               <div
                 className={`absolute inset-0 bg-gradient-to-br ${platform.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}
               />
 
-              <div className="relative z-10">
+              <div className="relative z-10 flex flex-col flex-grow">
                 {/* Platform icon */}
                 <div
                   className={`w-16 h-16 rounded-xl bg-gradient-to-br ${platform.color} flex items-center justify-center mb-6 text-primary-foreground font-bold text-xl`}
@@ -86,8 +86,10 @@ const PlatformsSection = () => {
                 <p className="text-primary font-mono text-sm mb-3">
                   @{platform.username}
                 </p>
+                
+                <div className="flex-grow" />
 
-                <p className="text-muted-foreground text-sm">
+                <p className="text-white text-sm mt-4 font-semibold">
                   {platform.description}
                 </p>
               </div>

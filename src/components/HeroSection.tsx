@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ChevronDown, Download, User } from "lucide-react";
+import { ChevronDown, Download } from "lucide-react";
 import TypewriterText from "./TypewriterText";
 
 const HeroSection = () => {
@@ -17,8 +17,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-primary/30 bg-secondary/50 flex items-center justify-center overflow-hidden relative group">
-            {/* Replace the User icon with your photo: <img src="/your-photo.jpg" alt="Your Name" className="w-full h-full object-cover" /> */}
-            <User size={80} className="text-muted-foreground" />
+            <img src="/mypic.jpg" alt="Chunit Bansal" className="w-full h-full object-cover" />
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
         </motion.div>
@@ -79,7 +78,7 @@ const HeroSection = () => {
                 Contact Me
               </motion.a>
               <motion.a
-                href="/resume.pdf"
+                href="/assets/mycv_tex.pdf"
                 download
                 className="px-8 py-3 border border-primary/50 rounded-lg font-medium hover:bg-primary/10 transition-colors flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}

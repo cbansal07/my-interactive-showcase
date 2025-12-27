@@ -4,9 +4,9 @@ import { Send, Github, Linkedin, Mail } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const socialLinks = [
-  { name: "GitHub", icon: Github, url: "https://github.com/yourusername" },
+  { name: "GitHub", icon: Github, url: "https://github.com/cbansal07" },
   { name: "LinkedIn", icon: Linkedin, url: "https://linkedin.com/in/yourusername" },
-  { name: "Email", icon: Mail, url: "mailto:your.email@example.com" },
+  { name: "Email", icon: Mail, url: "mailto:chunitbansal29@gmail.com" },
 ];
 
 const ContactSection = () => {
@@ -27,7 +27,7 @@ const ContactSection = () => {
     const body = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     );
-    window.location.href = `mailto:your.email@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:chunitbansal29@gmail.com?subject=${subject}&body=${body}`;
     
     toast({
       title: "Opening email client",

@@ -13,11 +13,7 @@ const Footer = () => {
           className="flex flex-col md:flex-row items-center justify-between gap-4"
         >
           <p className="text-muted-foreground text-sm">
-            © {currentYear} Your Name. Built with passion.
-          </p>
-          <p className="text-muted-foreground text-sm">
-            Designed & Developed with{" "}
-            <span className="gradient-text font-semibold">❤</span>
+            © {currentYear} Chunit Bansal. Built with passion.
           </p>
         </motion.div>
       </div>

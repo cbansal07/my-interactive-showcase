@@ -8,7 +8,7 @@ const HeroSection = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative pt-24 pb-12 sm:pt-32 sm:pb-16 md:pt-40 md:pb-20"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-8 md:gap-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
         {/* Photo Placeholder */}
         <motion.div
           className="flex-shrink-0"
@@ -23,7 +23,7 @@ const HeroSection = () => {
         </motion.div>
 
         {/* Text Content */}
-        <div className="text-center md:text-left flex-1">
+        <div className="text-center md:text-left">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
